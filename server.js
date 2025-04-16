@@ -39,6 +39,8 @@ app.get('/telegram-auth', (req, res) => {
     // const token = jwt.sign(userData, JWT_SECRET);
 
     // For now, just send JSON
+
+    console.log({userData})
     res.json({
       success: true,
       user: userData,
