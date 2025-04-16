@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Replace with your real bot token (store in .env in production)
-const BOT_TOKEN = '7634561247:AAH3bMmRLCHggweZGhTlQHQHRbJSwFfp4Fo';
+const BOT_TOKEN = '7756725963:AAELcIsTblQb4jOPaZa3CQ6gDgFG6sZ2-nU';
 
 app.use(cors());
 
